@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		06CB96D428B0C971007423BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CB96D328B0C971007423BC /* AppDelegate.swift */; };
 		06CB96D628B0C971007423BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CB96D528B0C971007423BC /* SceneDelegate.swift */; };
-		06CB96D828B0C971007423BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CB96D728B0C971007423BC /* ViewController.swift */; };
+		06CB96D828B0C971007423BC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CB96D728B0C971007423BC /* FirstViewController.swift */; };
 		06CB96DB28B0C971007423BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06CB96D928B0C971007423BC /* Main.storyboard */; };
 		06CB96DD28B0C971007423BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06CB96DC28B0C971007423BC /* Assets.xcassets */; };
 		06CB96E028B0C971007423BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06CB96DE28B0C971007423BC /* LaunchScreen.storyboard */; };
+		06CB96E828B0CBD6007423BC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CB96E728B0CBD6007423BC /* SecondViewController.swift */; };
+		06CB96EA28B0CBE9007423BC /* ThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CB96E928B0CBE9007423BC /* ThreeViewController.swift */; };
+		06CB96EC28B0CC28007423BC /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CB96EB28B0CC28007423BC /* FourthViewController.swift */; };
+		06CB96EF28B0CCF3007423BC /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CB96EE28B0CCF3007423BC /* Character.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		06CB96D028B0C971007423BC /* Path.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Path.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06CB96D328B0C971007423BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06CB96D528B0C971007423BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		06CB96D728B0C971007423BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		06CB96D728B0C971007423BC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		06CB96DA28B0C971007423BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		06CB96DC28B0C971007423BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06CB96DF28B0C971007423BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06CB96E128B0C971007423BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06CB96E728B0CBD6007423BC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		06CB96E928B0CBE9007423BC /* ThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeViewController.swift; sourceTree = "<group>"; };
+		06CB96EB28B0CC28007423BC /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		06CB96EE28B0CCF3007423BC /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +66,33 @@
 			children = (
 				06CB96D328B0C971007423BC /* AppDelegate.swift */,
 				06CB96D528B0C971007423BC /* SceneDelegate.swift */,
-				06CB96D728B0C971007423BC /* ViewController.swift */,
+				06CB96F028B0CD27007423BC /* Models */,
+				06CB96ED28B0CCCA007423BC /* ViewControllers */,
 				06CB96D928B0C971007423BC /* Main.storyboard */,
 				06CB96DC28B0C971007423BC /* Assets.xcassets */,
 				06CB96DE28B0C971007423BC /* LaunchScreen.storyboard */,
 				06CB96E128B0C971007423BC /* Info.plist */,
 			);
 			path = Path;
+			sourceTree = "<group>";
+		};
+		06CB96ED28B0CCCA007423BC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				06CB96D728B0C971007423BC /* FirstViewController.swift */,
+				06CB96E728B0CBD6007423BC /* SecondViewController.swift */,
+				06CB96E928B0CBE9007423BC /* ThreeViewController.swift */,
+				06CB96EB28B0CC28007423BC /* FourthViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		06CB96F028B0CD27007423BC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				06CB96EE28B0CCF3007423BC /* Character.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +166,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06CB96D828B0C971007423BC /* ViewController.swift in Sources */,
+				06CB96EC28B0CC28007423BC /* FourthViewController.swift in Sources */,
+				06CB96E828B0CBD6007423BC /* SecondViewController.swift in Sources */,
+				06CB96EF28B0CCF3007423BC /* Character.swift in Sources */,
+				06CB96D828B0C971007423BC /* FirstViewController.swift in Sources */,
 				06CB96D428B0C971007423BC /* AppDelegate.swift in Sources */,
 				06CB96D628B0C971007423BC /* SceneDelegate.swift in Sources */,
+				06CB96EA28B0CBE9007423BC /* ThreeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
